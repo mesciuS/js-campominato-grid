@@ -28,6 +28,7 @@ btnEl.addEventListener('click', function() {
 
         squareEl.addEventListener('click', function() {
             squareEl.classList.toggle('select');
+            console.log(i);
         })
 
     }
